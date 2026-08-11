@@ -77,24 +77,24 @@ nav:
   - Home: index.md
   
   - 'Base Layer (Core Infrastructure)':
-      - 'Provisioning & IaC (Preparando el Terreno)': modules/sre/iac.md
-      - 'GitOps & Continuous Delivery': modules/sre/gitops.md
-      - 'Networking & Ingress': modules/sre/networking.md
-      - 'Observability Stack': modules/sre/observability.md
-      - 'Security Best Practices': modules/sre/security.md
-      - 'FinOps Infracots': modules/sre/findops.md
+      - '1. Provisioning & Bootstrapping': modules/sre/iac.md
+      - '2. GitOps & Continuous Delivery': modules/sre/gitops.md
+      - '3. Advanced Networking': modules/sre/networking.md
+      - '4. Observability Stack': modules/sre/observability.md
+      - '5. Security & Policy Enforcement': modules/sre/security.md
+      - '6. FinOps & Resource Optimization': modules/sre/findops.md
   
   - 'Data Layer (Data Platforms & Pipelines)':
-      - 'Data Infrastructure': modules/data/iac.md
-      - 'Data Observability': modules/data/observability.md
-      - 'Security & Governance': modules/data/automation.md
+      - '1. Data Infrastructure': modules/data/iac.md
+      - '2. Data Observability': modules/data/observability.md
+      - '3. Security & Governance': modules/data/automation.md
   
   - 'AI Layer (AI & MLOps)':
-      - 'AI Infrastructure': modules/ia/components.md
-      - 'RAG': modules/ia/rag.md
-      - 'MCP': modules/ia/mcp.md
-      - 'Sub Agents': modules/ia/sub-agents.md
-      - 'A2A': modules/ia/a2a.md
+      - '1. AI Infrastructure': modules/ia/components.md
+      - '2. RAG': modules/ia/rag.md  
+      - '3. MCP': modules/ia/mcp.md
+      - '4. Sub Agents': modules/ia/sub-agents.md
+      - '5. A2A': modules/ia/a2a.md
       
   - 'Personal Blog':
       - blog/index.md  # El índice del blog se genera solo
