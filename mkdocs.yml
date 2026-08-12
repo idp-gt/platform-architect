@@ -77,7 +77,7 @@ nav:
   - Home: index.md
   
   - 'Base Layer (Core Infrastructure)':
-      - '1. Provisioning & Bootstrapping': modules/sre/iac.md
+      - '1. Provisioning & Bootstrapping': modules/base/1-provisioning.md
       - '2. GitOps & Continuous Delivery': modules/sre/gitops.md
       - '3. Advanced Networking': modules/sre/networking.md
       - '4. Observability Stack': modules/sre/observability.md
