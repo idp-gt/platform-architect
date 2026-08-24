@@ -127,13 +127,17 @@ body,
 /* Logo */
 .md-header__button.md-logo {
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 .md-header__button.md-logo img {
     height: 64px !important;
-    /* Aumentado para que el logo se vea mucho más grande */
     width: auto !important;
     max-height: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
 }
 
 /* Search Bar */
