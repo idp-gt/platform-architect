@@ -10,7 +10,7 @@ repo_name: platform-architect-cookbook
 theme:
   name: material
   language: en
-  logo: assets/logo-new.jpg
+  logo: assets/logo-final.png
   # Logo e Ícono (puedes usar emojis o rutas a imágenes)
   icon:
     repo: fontawesome/brands/github
