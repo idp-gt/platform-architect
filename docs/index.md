@@ -9,19 +9,19 @@ Diseñado para ingenieros que buscan agilidad en el despliegue y operación de i
 
     Recetas de aprovisionamiento de clústeres de Kubernetes On-Prem o sobre Google Kubernetes Engine (GKE), configuración de almacenamiento, redes buenas practicas de seguridad, observability y Terraform.
 
-    <a href="https://mcatalangt.github.io/platform-architect-cookbook/modules/sre/iac/" class="md-button">Conoce Más</a>
+    <a href="https://idp-gt.github.io/platform-architect/modules/base/1-provisioning/" class="md-button">Conoce Más</a>
 
 -   ### Data Platforms<br>& Pipelines
 
     Implementaciones de Apache Iceberg, despliegues de Trino, orquestación de flujos de datos en Apache Airflow y Apache Beam asi como migraciones a GCP.
 
-    <a href="https://mcatalangt.github.io/platform-architect-cookbook/modules/data/iac/" class="md-button">Conoce Más</a>
+    <a href="https://idp-gt.github.io/platform-architect/modules/data/iac/" class="md-button">Conoce Más</a>
 
 -   ### AI & MLOps
 
     Arquitecturas RAG avanzadas, cómo levantar LLMs locales (DeepSeek, Llama 3.1) con Qdrant y LlamaIndex, y pipelines de Machine Learning. Lo más moderno y experimental.
 
-    <a href="https://mcatalangt.github.io/platform-architect-cookbook/modules/ia/components/" class="md-button">Conoce Más</a>
+    <a href="https://idp-gt.github.io/platform-architect/modules/ia/components/" class="md-button">Conoce Más</a>
 
 </div>
 
