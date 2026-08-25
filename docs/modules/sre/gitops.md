@@ -41,5 +41,30 @@ Iniciado por el Grupo de Interés Especial (SIG) de Ciclo de Vida del Clúster d
 1. **Security Hardening:** Aplicación automática de parches de seguridad (CIS Benchmarks).
 2. **Disaster Recovery:** Scripts para la restauración automatizada de bases de datos.
 
+## Patrones de Despliegue en GitOps
 
+Para gestionar clústeres a escala y manejar múltiples aplicaciones o ambientes, GitOps utiliza patrones declarativos. Dos de los más importantes en el ecosistema de Argo CD son el patrón **App of Apps** y los **ApplicationSets**.
 
+### 1. Patrón "App of Apps"
+
+El patrón **App of Apps** es una técnica donde se define una única "Aplicación Raíz" (Root App) que, en lugar de desplegar recursos directos (como Pods o Services), despliega manifiestos de tipo `Application` (otras aplicaciones de Argo CD).
+
+#### Beneficios Principales
+*   **Bootstrapping Sencillo:** Permite levantar un clúster completo (core, data, apps) aplicando un solo recurso raíz.
+*   **Estructura Jerárquica:** Ideal para mantener un repositorio ordenado, agrupando aplicaciones por capas de infraestructura.
+*   **Gestión Centralizada:** Un único punto de entrada para aplicar control de versiones y auditoría a la topología completa.
+
+### 2. ApplicationSets (La Evolución)
+
+Mientras que "App of Apps" requiere crear manualmente un manifiesto `Application` por cada aplicación hija o clúster, **ApplicationSet** es un controlador nativo de Argo CD diseñado para automatizar y generar aplicaciones dinámicamente basándose en *generadores* (Generators).
+
+#### App of Apps vs. ApplicationSet
+
+| Característica | App of Apps | ApplicationSet |
+| :--- | :--- | :--- |
+| **Generación de Apps** | Manual (requiere escribir un manifiesto `Application` por cada app/clúster). | Automática (basada en generadores de Git, Clústeres, Listas, Matrices, etc.). |
+| **Uso Principal** | Bootstrapping estático de un solo clúster o infraestructura base fija. | Gestión dinámica de multi-clúster (ej. desplegar la app en todos los clústeres etiquetados como `prod`). |
+| **Escalabilidad** | Limitada. Múltiples clústeres requieren copiar/pegar manifiestos. | Alta. Un solo `ApplicationSet` puede desplegar cientos de apps en decenas de clústeres. |
+| **Mantenimiento** | Puede volverse verboso y difícil de mantener a medida que crece. | Plantillas centralizadas (`template`), lo que reduce el código repetido y facilita las actualizaciones globales. |
+
+**Conclusión:** "App of Apps" es excelente para comenzar y estructurar dependencias lógicas estáticas. Sin embargo, para despliegues dinámicos, multi-tenant o multi-clúster, **ApplicationSet** es el estándar moderno y la evolución natural del patrón.
