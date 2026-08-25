@@ -76,5 +76,5 @@ Ingeniería de plataformas confiables, observables y escalables. Construyo obser
 ## Contacto
 
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/macogt/){ .md-button }
-[:fontawesome-solid-envelope: marco@example.com](mailto:marco@example.com){ .md-button }
+[:fontawesome-solid-envelope: ctcatalangt@gmail.com](mailto:ctcatalangt@gmail.com){ .md-button }
 [:fontawesome-brands-github: GitHub](https://github.com/mcatalangt){ .md-button }
