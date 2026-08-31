@@ -9,19 +9,19 @@ Designed for engineers looking for agility in deploying and operating Cloud Nati
 
     Provisioning recipes for Kubernetes clusters On-Prem or on Google Kubernetes Engine (GKE), storage configuration, networking, security best practices, observability, and Terraform.
 
-    <a href="https://idp-gt.github.io/platform-architect/modules/base/1-provisioning/" class="md-button">Learn More</a>
+    <a href="modules/base/1-provisioning/" class="md-button">Learn More</a>
 
 -   ### Data Platforms<br>& Pipelines
 
     Apache Iceberg implementations, Trino deployments, data flow orchestration in Apache Airflow and Apache Beam, as well as GCP migrations.
 
-    <a href="https://idp-gt.github.io/platform-architect/modules/data/iac/" class="md-button">Learn More</a>
+    <a href="modules/data/iac/" class="md-button">Learn More</a>
 
 -   ### AI & MLOps
 
     Advanced RAG architectures, how to spin up local LLMs (DeepSeek, Llama 3.1) with Qdrant and LlamaIndex, and Machine Learning pipelines. The most modern and experimental tech.
 
-    <a href="https://idp-gt.github.io/platform-architect/modules/ia/components/" class="md-button">Learn More</a>
+    <a href="modules/ia/components/" class="md-button">Learn More</a>
 
 </div>
 
