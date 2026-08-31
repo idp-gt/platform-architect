@@ -1,0 +1,466 @@
+:root {
+    /* Google Cloud Color Palette - Light Mode */
+    --md-primary-fg-color: #ffffff;
+    --md-primary-bg-color: #ffffff;
+    --md-primary-fg-color--light: #ffffff;
+    --md-primary-fg-color--dark: #f8f9fa;
+
+    --md-accent-fg-color: #1a73e8;
+    --md-accent-fg-color--transparent: rgba(26, 115, 232, 0.1);
+    --md-accent-bg-color: #ffffff;
+
+    /* Text colors */
+    --md-text-color: #000000;
+    --md-typeset-color: #000000;
+    --md-typeset-a-color: #1a73e8;
+
+    /* Borders */
+    --md-default-fg-color--lightest: #dadce0;
+}
+
+[data-md-color-scheme="default"] {
+    --md-text-color: #000000;
+    --md-typeset-color: #3c4043;
+    --md-typeset-a-color: #1a73e8;
+}
+
+[data-md-color-scheme="slate"] {
+    /* Google Cloud Color Palette - Dark Mode */
+    --md-primary-fg-color: #202124;
+    --md-primary-bg-color: #202124;
+    --md-primary-fg-color--light: #303134;
+    --md-primary-fg-color--dark: #171717;
+
+    --md-accent-fg-color: #8ab4f8;
+    --md-accent-fg-color--transparent: rgba(138, 180, 248, 0.1);
+    --md-accent-bg-color: #202124;
+
+    --md-text-color: #e8eaed;
+    --md-typeset-color: #e8eaed;
+    --md-typeset-a-color: #8ab4f8;
+
+    --md-default-fg-color--lightest: #5f6368;
+}
+
+/* Typography Base */
+body,
+.md-typeset {
+    font-family: "Roboto", Arial, sans-serif !important;
+    color: var(--md-text-color) !important;
+}
+
+/* Texto normal (párrafos, listas, tablas) */
+.md-typeset p,
+.md-typeset li,
+.md-typeset td,
+.md-typeset th {
+    font-size: 15px !important;
+    /* Ajusta este valor si la quieres más pequeña (ej. 13px) */
+    line-height: 1.6 !important;
+}
+
+/* Sublistas (Para evitar que el texto se vea sesgado/cursivo) */
+.md-typeset ul ul li,
+.md-typeset ol ul li {
+    font-style: normal !important; /* Quita la cursiva */
+    color: var(--md-text-color) !important;
+}
+
+/* Headings */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: "Roboto", Arial, sans-serif !important;
+    color: var(--md-text-color) !important;
+    /* Usa la variable de MkDocs para soportar modo oscuro */
+}
+
+.md-typeset h1 {
+    font-weight: 800 !important;
+    /* Extra grueso */
+    letter-spacing: -0.02em;
+    /* Ligeramente más compacto para títulos gruesos */
+    margin-bottom: 1rem;
+}
+
+.md-typeset h2 {
+    font-weight: 800 !important;
+    /* Extra grueso */
+    letter-spacing: -0.01em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.md-typeset h3 {
+    font-weight: 700 !important;
+    /* Grueso */
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+    color: #e8eaed !important;
+}
+
+/* Header Styling */
+.md-header {
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest) !important;
+}
+
+.md-header__title,
+.md-header__button {
+    color: #5f6368 !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header__button {
+    color: #9aa0a6 !important;
+}
+
+/* Logo */
+.md-header__button.md-logo {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.md-header__button.md-logo img {
+    height: 48px !important;
+    width: auto !important;
+    max-height: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+/* Search Bar */
+.md-search__input {
+    background-color: #f1f3f4 !important;
+    border-radius: 8px !important;
+    color: #202124 !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+    background-color: #303134 !important;
+    color: #e8eaed !important;
+}
+
+/* Tabs */
+.md-tabs {
+    background-color: var(--md-primary-fg-color) !important;
+    color: var(--md-text-color) !important;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Buttons (Primary and Outline) */
+.md-typeset .md-button {
+    font-size: 0.5rem !important;
+    /* Increased from 0.875rem */
+    font-weight: 300 !important;
+    padding: 0.6em 0.5em !important;
+    border-radius: 4px !important;
+    color: var(--md-accent-fg-color) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--md-default-fg-color--lightest) !important;
+    letter-spacing: 0.25px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.md-typeset .md-button--primary {
+    background-color: var(--md-accent-fg-color) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+    color: #202124 !important;
+}
+
+.md-typeset .md-button:hover {
+    background-color: var(--md-accent-fg-color--transparent) !important;
+    border-color: var(--md-accent-fg-color) !important;
+}
+
+.md-typeset .md-button--primary:hover {
+    background-color: #174ea6 !important;
+    /* Darker blue */
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary:hover {
+    background-color: #aecbfa !important;
+    /* Lighter blue */
+}
+
+.md-button .twemoji {
+    height: 1.2em !important;
+    vertical-align: -0.2em;
+}
+
+/* Grid Cards (Like Google Cloud Services Cards) */
+.md-typeset .cards>ul>li {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    box-shadow: none !important;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    background-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .cards>ul>li:hover {
+    box-shadow: 0 8px 16px rgba(60, 64, 67, 0.15), 0 4px 8px rgba(60, 64, 67, 0.1) !important;
+    transform: translateY(-5px);
+    /* Efecto de elevar/agrandar la tarjeta */
+}
+
+[data-md-color-scheme="slate"] .md-typeset .cards>ul>li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-5px);
+}
+
+.md-typeset .cards>ul>li>hr {
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    margin: 1em -1em;
+}
+
+/* Airflow Custom Cards Styling applied to pure markdown list */
+@media screen and (min-width: 45em) {
+
+    /* Usamos flexbox estricto para forzar que siempre estén en línea (3 columnas) */
+    .md-typeset .airflow-cards-container>ul {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 1rem !important;
+    }
+
+    .md-typeset .airflow-cards-container>ul>li {
+        flex: 1 1 0 !important;
+        width: 33.333% !important;
+        max-width: 33.333% !important;
+    }
+}
+
+.airflow-cards-container>ul>li {
+    text-align: center !important;
+    padding: 1.5rem 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+
+.airflow-cards-container>ul>li>h3 {
+    margin-top: 0 !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: none !important;
+
+    /* Configuración del efecto de 3 colores (Deslizamiento de Gradiente) */
+    background: linear-gradient(90deg,
+            #000000 0%, #000000 33%,
+            /* Color Base: Negro */
+            #00bcd4 50%,
+            /* Color Intermedio: Cyan */
+            #1a73e8 66%, #1a73e8 100%
+            /* Color Final: Azul */
+        );
+    background-size: 300% 100%;
+    background-position: 0% 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+[data-md-color-scheme="slate"] .airflow-cards-container>ul>li>h3 {
+    background: linear-gradient(90deg,
+            #ffffff 0%, #ffffff 33%,
+            /* Color Base: Blanco */
+            #00bcd4 50%,
+            /* Color Intermedio: Cyan */
+            #8ab4f8 66%, #8ab4f8 100%
+            /* Color Final: Azul Claro */
+        );
+    background-size: 300% 100%;
+    background-position: 0% 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.airflow-cards-container>ul>li>p {
+    color: #5f6368 !important;
+    font-size: 14px !important;
+    margin-bottom: 2rem !important;
+    flex-grow: 1 !important;
+    /* Esto hace que el botón siempre se alinee abajo */
+}
+
+[data-md-color-scheme="slate"] .airflow-cards-container>ul>li>p {
+    color: #9aa0a6 !important;
+}
+
+.airflow-cards-container>ul>li>.md-button {
+    border: 1px solid #1a73e8 !important;
+    color: #1a73e8 !important;
+    width: auto !important;
+    margin: 0 auto !important;
+    padding: 0.4em 1.2em !important;
+}
+
+[data-md-color-scheme="slate"] .airflow-cards-container>ul>li>.md-button {
+    border: 1px solid #8ab4f8 !important;
+    color: #8ab4f8 !important;
+}
+
+/* Efecto hover sobre el título de las tarjetas de Airflow */
+.airflow-cards-container>ul>li:hover>h3 {
+    background-position: 100% 50%;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+    border-radius: 8px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    box-shadow: none;
+}
+
+.md-typeset .admonition.info>.admonition-title {
+    background-color: rgba(26, 115, 232, 0.05) !important;
+    color: #1a73e8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.info>.admonition-title {
+    color: #8ab4f8 !important;
+}
+
+.md-typeset .admonition.info {
+    border-left: 4px solid #1a73e8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.info {
+    border-left: 4px solid #8ab4f8 !important;
+}
+
+/* Inline Code Blocks (textos con acento grave como `iac_gke`) */
+.md-typeset code {
+    background-color: #f1f3f4;
+    color: #2013ce;
+    /* <--- AQUÍ CAMBIAS EL COLOR DEL TEXTO EN MODO CLARO (actual: rojo Google) */
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+    font-size: 0.85em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+    background-color: #303134;
+    color: #f28b82;
+    /* <--- AQUÍ CAMBIAS EL COLOR DEL TEXTO EN MODO OSCURO */
+}
+
+/* --- SIDEBAR MENU STYLE (APACHE AIRFLOW STYLE) --- */
+
+/* 1. Sidebar Background color (Full Height using Flex Stretch) */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        align-self: stretch !important;
+        height: auto !important;
+        background-color: #f8f9fa !important;
+        border-right: 1px solid var(--md-default-fg-color--lightest) !important;
+        padding-top: 1rem !important;
+    }
+
+    .md-sidebar--primary .md-sidebar__scrollwrap {
+        height: 100% !important;
+    }
+
+    [data-md-color-scheme="slate"] .md-sidebar--primary {
+        background-color: #202124 !important;
+    }
+}
+
+/* 2. Normal Links */
+.md-sidebar--primary .md-nav__link {
+    color: #5f6368 !important;
+    font-size: 0.65rem !important;
+    /* Letra microscópica (10px) */
+    font-weight: 400 !important;
+    /* Peso normal para que sea legible en tamaño pequeño */
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    line-height: 1.3 !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__link {
+    color: #9aa0a6 !important;
+}
+
+/* 3. Hover State */
+.md-sidebar--primary .md-nav__link:hover,
+.md-sidebar--primary .md-nav__link--passed:hover {
+    color: #1a73e8 !important;
+    background-color: transparent !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__link:hover {
+    color: #8ab4f8 !important;
+}
+
+/* 4. Active Link */
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__link--active[for] {
+    color: #1a73e8 !important;
+    font-weight: 500 !important;
+    background-color: transparent !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__link--active {
+    color: #8ab4f8 !important;
+}
+
+/* 5. Section Headers (Like "REFERENCES" or "BASE LAYER") */
+.md-sidebar--primary .md-nav--primary>.md-nav__list>.md-nav__item--section>.md-nav__link,
+.md-sidebar--primary .md-nav__item--section>.md-nav__link {
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+    color: #6c6c73 !important;
+    background-color: transparent !important;
+    padding: 0.3rem 0.5rem !important;
+    /* Agregué un poco de padding por si decides ponerle un color de fondo */
+    border-radius: 4px !important;
+    font-size: 0.55rem !important;
+    /* Título ultra pequeño (9px) */
+    line-height: 1.2 !important;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    white-space: normal !important;
+}
+
+/* Ocultar completamente el título principal de la pestaña en la barra lateral */
+.md-sidebar--primary .md-nav__title,
+.md-sidebar--primary .md-nav__title * {
+    display: none !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__item--section>.md-nav__link {
+    color: #ffffff !important;
+}
+
+/* Remove default active highlight backgrounds */
+.md-nav__item--active>.md-nav__link {
+    background-color: transparent !important;
+}
+
+/* Tables */
+.table th:nth-child(1) {
+    width: 20%;
+}
+
+.table th:nth-child(2) {
+    width: 80%;
+}

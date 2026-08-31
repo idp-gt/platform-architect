@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/about/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/about/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/blog/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/blog/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/02-idp/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/02-idp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/02-idp/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/03-gitops-ci_cd/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/03-gitops-ci_cd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/03-gitops-ci_cd/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/04-observability-mesh/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/04-observability-mesh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/04-observability-mesh/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/05-security-recovery/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/05-security-recovery/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/05-security-recovery/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/06-findops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/06-findops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/06-findops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/base/1-provisioning/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/1-provisioning/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/1-provisioning/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/data/automation/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/automation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/automation/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/data/iac/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/iac/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/iac/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/data/observability/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/observability/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/observability/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/ia/a2a/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/a2a/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/a2a/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/ia/components/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/components/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/components/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/ia/mcp/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/mcp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/mcp/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/ia/rag/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/rag/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/rag/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/ia/sub-agents/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/sub-agents/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/sub-agents/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/findops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/findops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/findops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/gitops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/gitops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/gitops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/iac/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/iac/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/iac/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/networking/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/networking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/networking/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/observability/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/observability/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/observability/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/modules/sre/security/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/security/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/security/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/about/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/about/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/about/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/blog/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/blog/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/blog/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/02-idp/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/02-idp/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/02-idp/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/03-gitops-ci_cd/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/03-gitops-ci_cd/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/03-gitops-ci_cd/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/04-observability-mesh/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/04-observability-mesh/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/04-observability-mesh/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/05-security-recovery/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/05-security-recovery/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/05-security-recovery/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/06-findops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/06-findops/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/06-findops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/base/1-provisioning/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/base/1-provisioning/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/base/1-provisioning/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/data/automation/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/automation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/automation/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/data/iac/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/iac/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/iac/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/data/observability/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/data/observability/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/data/observability/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/ia/a2a/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/a2a/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/a2a/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/ia/components/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/components/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/components/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/ia/mcp/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/mcp/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/mcp/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/ia/rag/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/rag/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/rag/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/ia/sub-agents/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/ia/sub-agents/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/ia/sub-agents/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/findops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/findops/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/findops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/gitops/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/gitops/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/gitops/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/iac/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/iac/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/iac/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/networking/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/networking/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/networking/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/observability/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/observability/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/observability/"/>
+    </url>
+    <url>
+        <loc>https://idp-gt.github.io/platform-architect/en/modules/sre/security/</loc>
+        <lastmod>2026-08-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://idp-gt.github.io/platform-architect/en/modules/sre/security/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://idp-gt.github.io/platform-architect/modules/sre/security/"/>
+    </url>
+</urlset>
