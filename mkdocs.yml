@@ -2,9 +2,9 @@
 site_name: Platform Architect's Cookbook
 site_description: Centralized SRE & Data Engineering Standards
 site_author: Marco Tulio Catalán Funes
-site_url: https://mcatalangt.github.io/platform-architect-cookbook/
-repo_url: https://github.com/mcatalangt/platform-architect-cookbook
-repo_name: platform-architect-cookbook
+site_url: https://idp-gt.github.io/platform-architect/
+repo_url: https://github.com/idp-gt/platform-architect
+repo_name: platform-architect
 
 # 2. TEMA (APARIENCIA)
 theme:
@@ -119,10 +119,10 @@ extra_css:
 extra:
   alternate:
     - name: Español
-      link: /
+      link: /platform-architect/
       lang: es
     - name: English
-      link: /en/
+      link: /platform-architect/en/
       lang: en
   social:
     - icon: fontawesome/brands/linkedin
