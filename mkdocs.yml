@@ -49,6 +49,17 @@ theme:
 # 3. PLUGINS (FUNCIONALIDADES EXTRA)
 plugins:
   - search                 # Barra de búsqueda (Obligatorio)
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        - locale: en
+          name: English
+          build: true
   - blog:                  # Tu Blog Técnico
       blog_dir: blog
       post_url_date_format: yyyy/MM/dd
@@ -106,6 +117,13 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  alternate:
+    - name: Español
+      link: /
+      lang: es
+    - name: English
+      link: /en/
+      lang: en
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/macogt/
